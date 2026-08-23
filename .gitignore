@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Java
+*.class
+hs_err_pid*
+*.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log

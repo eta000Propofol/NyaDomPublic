@@ -1,0 +1,63 @@
+prefix: '&8[&b宣传栏&8] &r'
+board-title: '&0Dominion 宣传栏'
+empty-slot-name: '&7空位'
+empty-slot-lore:
+  - '&8全服最多可上架 45 个领地'
+board-lore:
+  - '&7主人: &f{owner}'
+  - '&7简介: &f{description}'
+  - '&8'
+  - '{hint}'
+no-description: '&7未设置简介'
+teleport-hint: '&e点击传送到该领地'
+manage-hint: '&a点击管理该领地'
+button-list: '&e上架领地'
+button-list-lore:
+  - '&7将你有权限的领地上架'
+button-mine: '&e我的宣传'
+button-mine-lore:
+  - '&7查看你上架的领地'
+button-refresh: '&b刷新'
+button-refresh-lore:
+  - '&7刷新宣传栏'
+button-close: '&c关闭'
+button-close-lore:
+  - '&7关闭界面'
+button-back: '&7返回'
+button-back-lore:
+  - '&7返回上一页'
+select-title: '&0选择要上架的领地'
+select-lore:
+  - '&7点击上架，费用: {cost} {currency}'
+no-dominion: '&c你没有可上架的领地。'
+manage-title: '&0宣传管理'
+manage-info-name: '&e{name}'
+manage-info-lore:
+  - '&7主人: &f{owner}'
+  - '&7简介: &f{description}'
+  - '&7上架时间: &f{created}'
+button-edit-desc: '&a修改简介'
+button-edit-desc-lore:
+  - '&7在聊天栏输入新简介'
+button-remove: '&c下架'
+button-remove-lore:
+  - '&7将该领地从宣传栏移除'
+confirm-title: '&0确认下架？'
+button-confirm: '&c确认下架'
+button-cancel: '&7取消'
+already-listed: '&c该领地已经上架了。'
+board-full: '&c宣传栏已满，无法继续上架。'
+not-enough-money: '&c余额不足，上架需要 {cost} {currency}。'
+listed-success: '&a领地上架成功，已扣除 {cost} {currency}。'
+removed-success: '&a已下架。'
+teleport-failed: '&c传送失败，请稍后再试。'
+teleport-denied: '&c该领地未开启传送权限，无法传送。'
+edit-desc-prompt: '&a请在聊天栏输入新的简介（最多 {max} 字）。'
+edit-desc-cancelled: '&c已取消输入简介。'
+edit-desc-timeout: '&c简介输入已超时。'
+edit-desc-saved: '&a简介已更新。'
+no-permission: '&c你没有权限执行此操作。'
+player-only: '&c该命令只能由玩家执行。'
+reload-success: '&a插件已重载。'
+error-generic: '&c操作失败，请稍后再试。'
+

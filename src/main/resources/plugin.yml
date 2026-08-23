@@ -1,0 +1,20 @@
+name: NyaDomPublic
+version: 1.0.0
+main: com.nyadom.nyadompublic.NyaDomPublicPlugin
+api-version: '1.20'
+depend:
+  - Dominion
+  - Vault
+commands:
+  board:
+    description: Open the Dominion publicity board
+    aliases:
+      - nyadompublic
+      - dominionboard
+permissions:
+  nyadompublic.use:
+    description: Allows opening the board and listing/managing eligible dominions
+    default: true
+  nyadompublic.admin:
+    description: Allows reloading the plugin
+    default: op

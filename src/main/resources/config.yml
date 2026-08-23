@@ -1,0 +1,21 @@
+economy:
+  cost: 1000.0
+  currency-name: '龙门币'
+
+listing:
+  duration-days: -1
+  max: 45
+  description-max-length: 100
+  sign-materials:
+    - OAK_SIGN
+    - SPRUCE_SIGN
+    - BIRCH_SIGN
+    - JUNGLE_SIGN
+    - ACACIA_SIGN
+    - DARK_OAK_SIGN
+    - MANGROVE_SIGN
+    - CHERRY_SIGN
+    - BAMBOO_SIGN
+    - CRIMSON_SIGN
+    - WARPED_SIGN
+    - PALE_OAK_SIGN
