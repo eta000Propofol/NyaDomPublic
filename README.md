@@ -1,8 +1,17 @@
 # NyaDomPublic
 
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/eta000Propofol/NyaDomPublic?sort=semver)](https://github.com/eta000Propofol/NyaDomPublic/releases/latest)
+[![Server](https://img.shields.io/badge/Paper-26.1.2-8A2BE2)](https://papermc.io/downloads)
+[![Java](https://img.shields.io/badge/Java-25-orange)]()
+
 > Paper 26.1.2 下的 Dominion 领地「宣传栏」扩展插件
 
-NyaDomPublic 是 [Dominion](https://github.com/LunaDeerMC/Dominion) 领地的宣传栏扩展。玩家通过 `/board` 打开 6×9 箱子 GUI，将自己在 Dominion 中的领地上架到全服宣传栏，其他玩家点击条目即可传送到对应领地；领主/管理员可管理自己条目的简介与下架。
+## 简介
+
+NyaDomPublic 是 [Dominion](https://github.com/LunaDeerMC/Dominion) 领地的宣传栏扩展。
+玩家通过 `/board` 打开 6×9 箱子 GUI，将自己在 Dominion 中的领地上架到全服宣传栏，
+其他玩家点击条目即可传送到对应领地；领主/管理员可管理自己条目的简介与下架。
 
 ## 功能特性
 
@@ -26,7 +35,7 @@ NyaDomPublic 是 [Dominion](https://github.com/LunaDeerMC/Dominion) 领地的宣
 
 ## 安装
 
-1. 将 `NyaDomPublic-1.0.0.jar` 放入服务端 `plugins/` 目录。
+1. 将 `NyaDomPublic-<版本>.jar` 放入服务端 `plugins/` 目录。
 2. 确认 `plugins/` 下同时存在 `Dominion` 与 `Vault` 及其经济实现插件。
 3. 重启服务端，插件会在 `plugins/NyaDomPublic/` 下生成 `config.yml`、`messages.yml` 与 `data.yml`。
 
@@ -67,15 +76,17 @@ listing:
 
 ## 构建
 
-```bash
+```powershell
 # Windows
-./gradlew.bat build
+gradlew.bat build
+```
 
+```bash
 # Linux/macOS
 ./gradlew build
 ```
 
-构建产物位于 `build/libs/NyaDomPublic-1.0.0.jar`。
+构建产物位于 `build/libs/NyaDomPublic-<版本>.jar`。
 
 ## 目录结构
 
@@ -95,3 +106,7 @@ src/main/java/com/nyadom/nyadompublic
 - 宣传栏仅通过 `/board` 指令打开，不放置任何世界内实体/方块。
 - 只有 Dominion 领地所有者与管理员可以上架/管理对应领地。
 - 下架不退款；传送本身不额外收费。
+
+## License
+
+本项目基于 [Apache-2.0](LICENSE) 协议开源。
